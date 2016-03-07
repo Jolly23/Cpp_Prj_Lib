@@ -1,7 +1,6 @@
 ROOT=/home/Cpp_Prj_Lib/Drcom_Server
 OBJ=$(ROOT)/obj
 BIN=$(ROOT)/bin
-GI=$(ROOT)/GetInfo
 
 OUT=g++
 

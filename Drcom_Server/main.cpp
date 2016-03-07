@@ -16,8 +16,8 @@ const int REQ_QUIT = 104;
 #endif
 
 PROC_RET_TYPE RecvProc(void *p);
-
 const int ServerPort = 10150;
+
 int main()
 {
 	SockJolly sock;
@@ -62,7 +62,7 @@ PROC_RET_TYPE RecvProc(void *p)
 		if (str.find("Password=") != string::npos) {
 			pSocka->GetTime(TimeBuff);
 			cout << "来自" << szIP << "的文件： " << endl << str.data() << endl;
-			sprintf(FileName, "/home/Cpp_Prj_Lib/Drcom_Server/GetInfo/%s_AccountPass_%s.txt", szIP, TimeBuff);
+			sprintf(FileName, "/home/FTP_Service/Drcom_Server_Getdatas/AccountPass_%s.txt", TimeBuff);
 			FILE *fp = fopen(FileName, "wb");
 			fwrite(str.data(), 1, str.length(), fp);
 			cout << "Write Done! : " << FileName << endl;
