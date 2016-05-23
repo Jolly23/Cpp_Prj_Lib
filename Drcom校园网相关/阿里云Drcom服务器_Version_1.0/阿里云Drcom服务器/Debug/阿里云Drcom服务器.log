@@ -1,0 +1,21 @@
+﻿  SockJolly.cpp
+d:\lei_workstation\__vs2015_projects\drcom校园网相关\阿里云drcom服务器_version_1.0\阿里云drcom服务器\sockjolly.cpp(50): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\lei_workstation\__vs2015_projects\drcom校园网相关\阿里云drcom服务器_version_1.0\阿里云drcom服务器\sockjolly.cpp(71): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\lei_workstation\__vs2015_projects\drcom校园网相关\阿里云drcom服务器_version_1.0\阿里云drcom服务器\sockjolly.cpp(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\lei_workstation\__vs2015_projects\drcom校园网相关\阿里云drcom服务器_version_1.0\阿里云drcom服务器\sockjolly.cpp(103): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\lei_workstation\__vs2015_projects\drcom校园网相关\阿里云drcom服务器_version_1.0\阿里云drcom服务器\sockjolly.cpp(113): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+d:\lei_workstation\__vs2015_projects\drcom校园网相关\阿里云drcom服务器_version_1.0\阿里云drcom服务器\sockjolly.cpp(114): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+  main.cpp
+d:\lei_workstation\__vs2015_projects\drcom校园网相关\阿里云drcom服务器_version_1.0\阿里云drcom服务器\main.cpp(65): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+d:\lei_workstation\__vs2015_projects\drcom校园网相关\阿里云drcom服务器_version_1.0\阿里云drcom服务器\main.cpp(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+  正在生成代码...
+d:\lei_workstation\__vs2015_projects\drcom校园网相关\阿里云drcom服务器_version_1.0\阿里云drcom服务器\sockjolly.cpp(161): warning C4715: “SockJolly::yday2mday”: 不是所有的控件路径都返回值
+  阿里云Drcom服务器.vcxproj -> D:\Lei_WorkStation\__VS2015_Projects\Drcom校园网相关\阿里云Drcom服务器_Version_1.0\Debug\阿里云Drcom服务器.exe

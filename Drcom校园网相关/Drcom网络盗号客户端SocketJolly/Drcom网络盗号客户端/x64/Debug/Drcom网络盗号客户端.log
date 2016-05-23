@@ -1,0 +1,141 @@
+﻿  stdafx.cpp
+  Drcom网络盗号客户端.cpp
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(80): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(84): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(97): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(55): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): note: 参见“inet_addr”的声明
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(71): warning C4474: sprintf_s: 格式字符串中传递的参数太多
+  d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(71): note: 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(72): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(74): warning C4474: sprintf_s: 格式字符串中传递的参数太多
+  d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(74): note: 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(75): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(83): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(124): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(128): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(132): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(136): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(140): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(144): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(152): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(155): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(166): warning C4477: “fscanf_s”: 格式字符串“%02x”需要类型“unsigned int *”的参数，但可变参数 1 拥有了类型“char *”
+  d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(166): note: 请考虑在格式字符串中使用“%hhx”
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(182): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(183): error C2065: “MOV”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(183): error C2146: 语法错误: 缺少“;”(在标识符“ECX”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(183): error C2065: “ECX”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(184): error C2146: 语法错误: 缺少“;”(在标识符“MOV”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(184): error C2065: “MOV”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(184): error C2146: 语法错误: 缺少“;”(在标识符“EAX”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(184): error C2065: “EAX”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(185): error C2146: 语法错误: 缺少“;”(在标识符“MOV”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(185): error C2065: “MOV”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(185): error C2146: 语法错误: 缺少“;”(在标识符“EDX”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(185): error C2065: “EDX”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(186): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(186): error C2146: 语法错误: 缺少“;”(在标识符“ESI”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(186): error C2065: “ESI”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(187): error C2146: 语法错误: 缺少“;”(在标识符“_decrypt_start”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(188): error C2146: 语法错误: 缺少“;”(在标识符“EDI”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(188): error C2065: “EDI”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(189): error C2065: “ECX”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(189): error C2146: 语法错误: 缺少“;”(在标识符“SAR”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(189): error C2065: “SAR”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(189): error C2146: 语法错误: 缺少“;”(在标识符“EDI”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(189): error C2065: “EDI”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(190): error C2146: 语法错误: 缺少“;”(在标识符“ADD”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(190): error C2065: “ADD”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(190): error C2146: 语法错误: 缺少“;”(在标识符“EDI”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(190): error C2065: “EDI”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(191): error C2146: 语法错误: 缺少“;”(在标识符“MOV”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(191): error C2146: 语法错误: 缺少“;”(在标识符“EBX”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(191): error C2065: “EBX”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(192): error C2065: “ECX”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(192): error C2146: 语法错误: 缺少“;”(在标识符“SHL”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(192): error C2065: “SHL”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(192): error C2146: 语法错误: 缺少“;”(在标识符“EBX”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(192): error C2065: “EBX”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(193): error C2146: 语法错误: 缺少“;”(在标识符“ADD”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(193): error C2065: “ADD”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(193): error C2146: 语法错误: 缺少“;”(在标识符“EBX”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(193): error C2065: “EBX”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(194): error C2146: 语法错误: 缺少“;”(在标识符“SUB”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(194): error C2065: “SUB”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(194): error C2146: 语法错误: 缺少“;”(在标识符“ESI”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(194): error C2065: “ESI”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(195): error C2146: 语法错误: 缺少“;”(在标识符“XOR”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(195): error C2065: “XOR”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(195): error C2146: 语法错误: 缺少“;”(在标识符“EDI”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(195): error C2065: “EDI”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(196): error C2065: “EBX”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(196): error C2146: 语法错误: 缺少“;”(在标识符“LEA”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(196): error C2065: “LEA”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(196): error C2146: 语法错误: 缺少“;”(在标识符“EBX”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(196): error C2275: “DWORD”: 将此类型用作表达式非法
+  c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(156): note: 参见“DWORD”的声明
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(196): error C2146: 语法错误: 缺少“;”(在标识符“PTR”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(196): error C2065: “PTR”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(196): error C2146: 语法错误: 缺少“;”(在标识符“DS”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(196): error C2337: “EDX”: 未找到特性
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(196): error C2143: 语法错误: 缺少“]”(在“+”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(196): error C2059: 语法错误:“+”
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(196): error C2065: “ebx”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(196): error C2065: “edx”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(197): error C2065: “ecx”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(197): error C2146: 语法错误: 缺少“;”(在标识符“XOR”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(197): error C2065: “XOR”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(197): error C2146: 语法错误: 缺少“;”(在标识符“EDI”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(197): error C2065: “EDI”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(198): error C2065: “EBX”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(198): error C2146: 语法错误: 缺少“;”(在标识符“SUB”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(198): error C2065: “SUB”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(198): error C2146: 语法错误: 缺少“;”(在标识符“EAX”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(198): error C2065: “EAX”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(199): error C2065: “EDI”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(199): error C2146: 语法错误: 缺少“;”(在标识符“MOV”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(199): error C2146: 语法错误: 缺少“;”(在标识符“EDI”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(200): error C2065: “EAX”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(200): error C2146: 语法错误: 缺少“;”(在标识符“SAR”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(200): error C2065: “SAR”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(200): error C2146: 语法错误: 缺少“;”(在标识符“EDI”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(200): error C2065: “EDI”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(201): error C2146: 语法错误: 缺少“;”(在标识符“ADD”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(201): error C2065: “ADD”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(201): error C2146: 语法错误: 缺少“;”(在标识符“EDI”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(201): error C2065: “EDI”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(202): error C2146: 语法错误: 缺少“;”(在标识符“MOV”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(202): error C2146: 语法错误: 缺少“;”(在标识符“EBX”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(202): error C2065: “EBX”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(203): error C2065: “EAX”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(203): error C2146: 语法错误: 缺少“;”(在标识符“SHL”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(203): error C2065: “SHL”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(203): error C2146: 语法错误: 缺少“;”(在标识符“EBX”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(203): error C2065: “EBX”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(204): error C2146: 语法错误: 缺少“;”(在标识符“ADD”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(204): error C2065: “ADD”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(204): error C2146: 语法错误: 缺少“;”(在标识符“EBX”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(204): error C2065: “EBX”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(205): error C2146: 语法错误: 缺少“;”(在标识符“XOR”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(205): error C2065: “XOR”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(205): error C2146: 语法错误: 缺少“;”(在标识符“EDI”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(205): error C2065: “EDI”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(206): error C2065: “EBX”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(206): error C2146: 语法错误: 缺少“;”(在标识符“LEA”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(206): error C2065: “LEA”: 未声明的标识符
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(206): error C2146: 语法错误: 缺少“;”(在标识符“EBX”的前面)
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(206): error C2275: “DWORD”: 将此类型用作表达式非法
+  c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(156): note: 参见“DWORD”的声明
+d:\lei_workstation\vs2015_projects\drcom网络盗号客户端\drcom网络盗号客户端\drcom网络盗号客户端.cpp(206): fatal error C1003: 错误计数超过 100；正在停止编译

@@ -1,0 +1,13 @@
+﻿  SockJolly.cpp
+d:\lei_workstation\__vs2015_projects\drcom校园网相关\跨平台_drcom网络盗号服务器\drcom网络盗号服务器 - linux\sockjolly.cpp(50): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\lei_workstation\__vs2015_projects\drcom校园网相关\跨平台_drcom网络盗号服务器\drcom网络盗号服务器 - linux\sockjolly.cpp(71): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\lei_workstation\__vs2015_projects\drcom校园网相关\跨平台_drcom网络盗号服务器\drcom网络盗号服务器 - linux\sockjolly.cpp(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\lei_workstation\__vs2015_projects\drcom校园网相关\跨平台_drcom网络盗号服务器\drcom网络盗号服务器 - linux\sockjolly.cpp(103): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+  Drcom_Server.cpp
+d:\lei_workstation\__vs2015_projects\drcom校园网相关\跨平台_drcom网络盗号服务器\drcom网络盗号服务器 - linux\drcom_server.cpp(54): warning C4101: “FileName”: 未引用的局部变量
+  正在生成代码...
+  Drcom网络盗号服务器 - Linux.vcxproj -> D:\Lei_WorkStation\__VS2015_Projects\Drcom校园网相关\跨平台_Drcom网络盗号服务器\Debug\Drcom网络盗号服务器 - Linux.exe

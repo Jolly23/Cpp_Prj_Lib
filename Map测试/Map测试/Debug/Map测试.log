@@ -1,0 +1,21 @@
+﻿  Map测试.cpp
+d:\lei_workstation\vs2015_projects\map测试\map测试\map测试.cpp(22): warning C4018: “<”: 有符号/无符号不匹配
+d:\program files (x86)\microsoft visual studio 14.0\vc\include\utility(145): warning C4244: “初始化”: 从“__int64”转换到“const int”，可能丢失数据
+  d:\lei_workstation\vs2015_projects\map测试\map测试\map测试.cpp(16): note: 参见对正在编译的函数 模板 实例化“std::pair<const _Kty,_Ty>::pair<__int64&,__int64,void>(_Other1,_Other2 &&) noexcept”的引用
+          with
+          [
+              _Kty=int,
+              _Ty=int,
+              _Other1=__int64 &,
+              _Other2=__int64
+          ]
+  d:\lei_workstation\vs2015_projects\map测试\map测试\map测试.cpp(16): note: 参见对正在编译的函数 模板 实例化“std::pair<const _Kty,_Ty>::pair<__int64&,__int64,void>(_Other1,_Other2 &&) noexcept”的引用
+          with
+          [
+              _Kty=int,
+              _Ty=int,
+              _Other1=__int64 &,
+              _Other2=__int64
+          ]
+d:\program files (x86)\microsoft visual studio 14.0\vc\include\utility(145): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+  Map测试.vcxproj -> D:\Lei_WorkStation\VS2015_Projects\Map测试\Debug\Map测试.exe

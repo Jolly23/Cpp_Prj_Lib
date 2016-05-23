@@ -1,0 +1,7 @@
+﻿  Servers.cpp
+d:\lei_workstation\__vs2015_projects\招商银行管理网络版服务器_linux_单线程简版\招商银行管理网络版服务器_linux_单线程简版\admin.h(40): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(568): note: 参见“stricmp”的声明
+d:\lei_workstation\__vs2015_projects\招商银行管理网络版服务器_linux_单线程简版\招商银行管理网络版服务器_linux_单线程简版\servers.cpp(248): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1266): note: 参见“_sleep”的声明
+d:\lei_workstation\__vs2015_projects\招商银行管理网络版服务器_linux_单线程简版\招商银行管理网络版服务器_linux_单线程简版\servers.cpp(82): warning C4715: “CServers::Start”: 不是所有的控件路径都返回值
+  招商银行管理网络版服务器_Linux_单线程简版.vcxproj -> D:\Lei_WorkStation\__VS2015_Projects\招商银行管理网络版服务器_Linux_单线程简版\Debug\招商银行管理网络版服务器_Linux_单线程简版.exe

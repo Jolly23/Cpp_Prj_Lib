@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  猜数字游戏大容量数据分析_概率.cpp
+d:\lei_workstation\vs2015_projects\猜数字游戏大容量数据分析_概率\猜数字游戏大容量数据分析_概率\猜数字游戏大容量数据分析_概率.cpp(41): warning C4551: 缺少参数列表的函数调用
+d:\lei_workstation\vs2015_projects\猜数字游戏大容量数据分析_概率\猜数字游戏大容量数据分析_概率\猜数字游戏大容量数据分析_概率.cpp(53): warning C4551: 缺少参数列表的函数调用
+d:\lei_workstation\vs2015_projects\猜数字游戏大容量数据分析_概率\猜数字游戏大容量数据分析_概率\猜数字游戏大容量数据分析_概率.cpp(63): warning C4551: 缺少参数列表的函数调用
+d:\lei_workstation\vs2015_projects\猜数字游戏大容量数据分析_概率\猜数字游戏大容量数据分析_概率\猜数字游戏大容量数据分析_概率.cpp(85): warning C4018: “<”: 有符号/无符号不匹配
+d:\lei_workstation\vs2015_projects\猜数字游戏大容量数据分析_概率\猜数字游戏大容量数据分析_概率\猜数字游戏大容量数据分析_概率.cpp(67): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\conio.h(452): note: 参见“getch”的声明
+d:\lei_workstation\vs2015_projects\猜数字游戏大容量数据分析_概率\猜数字游戏大容量数据分析_概率\猜数字游戏大容量数据分析_概率.cpp(148): warning C4715: “Compare”: 不是所有的控件路径都返回值
+  猜数字游戏大容量数据分析_概率.vcxproj -> D:\Lei_WorkStation\VS2015_Projects\猜数字游戏大容量数据分析_概率\Debug\猜数字游戏大容量数据分析_概率.exe

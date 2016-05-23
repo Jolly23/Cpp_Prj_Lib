@@ -1,0 +1,6 @@
+﻿  银行服务器压力测试.cpp
+d:\lei_workstation\__vs2015_projects\银行服务器压力测试\银行服务器压力测试\银行服务器压力测试.cpp(20): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1266): note: 参见“_sleep”的声明
+d:\lei_workstation\__vs2015_projects\银行服务器压力测试\银行服务器压力测试\银行服务器压力测试.cpp(96): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1266): note: 参见“_sleep”的声明
+  银行服务器压力测试.vcxproj -> D:\Lei_WorkStation\__VS2015_Projects\银行服务器压力测试\Debug\银行服务器压力测试.exe

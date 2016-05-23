@@ -1,0 +1,11 @@
+﻿  stdafx.cpp
+  Drcom密码提取_CSDN原版.cpp
+d:\lei_workstation\vs2015_projects\drcom密码提取_csdn原版\drcom密码提取_csdn原版\drcom密码提取_csdn原版.cpp(76): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+d:\lei_workstation\vs2015_projects\drcom密码提取_csdn原版\drcom密码提取_csdn原版\drcom密码提取_csdn原版.cpp(80): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+d:\lei_workstation\vs2015_projects\drcom密码提取_csdn原版\drcom密码提取_csdn原版\drcom密码提取_csdn原版.cpp(89): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+d:\lei_workstation\vs2015_projects\drcom密码提取_csdn原版\drcom密码提取_csdn原版\drcom密码提取_csdn原版.cpp(100): warning C4477: “fscanf_s”: 格式字符串“%02x”需要类型“unsigned int *”的参数，但可变参数 1 拥有了类型“char *”
+  d:\lei_workstation\vs2015_projects\drcom密码提取_csdn原版\drcom密码提取_csdn原版\drcom密码提取_csdn原版.cpp(100): note: 请考虑在格式字符串中使用“%hhx”
+  Drcom密码提取_CSDN原版.vcxproj -> D:\Lei_WorkStation\VS2015_Projects\Drcom密码提取_CSDN原版\Debug\Drcom密码提取_CSDN原版.exe
