@@ -1,13 +1,25 @@
-// ²ÂÊı×ÖÓÎÏ·´óÈİÁ¿Êı¾İ·ÖÎö_¸ÅÂÊ.cpp : ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌĞòµÄÈë¿Úµã¡£
+// çŒœæ•°å­—æ¸¸æˆå¤§å®¹é‡æ•°æ®åˆ†æ_æ¦‚ç‡.cpp : å®šä¹‰æ§åˆ¶å°åº”ç”¨ç¨‹åºçš„å…¥å£ç‚¹ã€‚
 //
 
 #include "stdafx.h"
 #include <stdlib.h>
 #include <time.h>
-#include <conio.h>
-#include <windows.h>
+#include <curses.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <strings.h>
+#include <stdio.h>
 #include <iostream>
 using namespace std;
+
+#ifdef _WIN32
+    #include "conio.h" 
+    #define get_char getch 
+#else
+    //Linux platform 
+    #include "termios.h" 
+    #define get_char getchar 
+#endif 
 
 void OS();
 void OSMain();
@@ -16,21 +28,22 @@ int RandNumb(int Min, int Max);
 bool Compare(int ComputerNumb, int ComputerGuess);
 
 unsigned int MinMax[2];
-int Width;		//¿ç¶È
-int OSMax;		//Ñù±¾
-unsigned int Times = 0;		//×Ü²ÂÊı´ÎÊı
-unsigned int OldTimes = 0;	//¼ÇÂ¼ÉÏ´Î²ÂÊı´ÎÊı
-unsigned int Success = 0;	//×ÜÍê³ÉÑù±¾Êı
-unsigned int OSTimes = 1;	//Ñù±¾ĞòºÅ¼ÇÂ¼
-char MSel;	//1£º·¶Î§ÄÚËæ»úÈ¡ÊıÄ£Ê½¡£ 2£º·¶Î§ÄÚÈ¡ÖĞ¼äÊıÄ£Ê½
+int Width;		//è·¨åº¦
+int OSMax;		//æ ·æœ¬
+unsigned int Times = 0;		//æ€»çŒœæ•°æ¬¡æ•°
+unsigned int OldTimes = 0;	//è®°å½•ä¸Šæ¬¡çŒœæ•°æ¬¡æ•°
+unsigned int Success = 0;	//æ€»å®Œæˆæ ·æœ¬æ•°
+unsigned int OSTimes = 1;	//æ ·æœ¬åºå·è®°å½•
+char MSel;	//1ï¼šèŒƒå›´å†…éšæœºå–æ•°æ¨¡å¼ã€‚ 2ï¼šèŒƒå›´å†…å–ä¸­é—´æ•°æ¨¡å¼
 
-void main()
+int main()
 {
 	do {
 		system("cls");
 		cout << "\t\t\t\tDesigned By ZhaoLei" << endl;
 		OSMain();
 	} while (true);
+	return 0;
 }
 
 void OSMain()
@@ -38,32 +51,32 @@ void OSMain()
 	Times = 0;
 	Success = 0;
 	OSTimes = 1;
-	fflush;
-	cout << "ÇëÊäÈë²ÂÊı·¶Î§¿ç¶È(0ÍË³ö)£º";
+	fflush(stdin);
+	cout << "è¯·è¾“å…¥çŒœæ•°èŒƒå›´è·¨åº¦(0é€€å‡º)ï¼š";
 	cin >> Width;
 	if (Width <= 0)
 	{
 		if (Width == 0)
 			_exit(1);
-		cout << "ÊäÈëÓĞÎó£¬Ëæ»úÊı¿ç¶È²»¿ÉÒÔĞ¡ÓÚ 0 " << endl;
+		cout << "è¾“å…¥æœ‰è¯¯ï¼Œéšæœºæ•°è·¨åº¦ä¸å¯ä»¥å°äº 0 " << endl;
 		system("pause");
 		return;
 	}
 
-	fflush;
-	cout << "ÇëÊäÈë Êı¾İ·ÖÎö ×ÜÑù±¾Êı£º";
+	fflush(stdin);
+	cout << "è¯·è¾“å…¥ æ•°æ®åˆ†æ æ€»æ ·æœ¬æ•°ï¼š";
 	cin >> OSMax;
 	if (OSMax == 0)
 	{
-		cout << "ÊäÈëÓĞÎó£¬Ñù±¾Êı±ØĞë´óÓÚ 0 " << endl;
+		cout << "è¾“å…¥æœ‰è¯¯ï¼Œæ ·æœ¬æ•°å¿…é¡»å¤§äº 0 " << endl;
 		system("pause");
 		return;
 	}
 
-	fflush;
-	cout << "Çë Ñ¡Ôñ ²ÂÊı×Ö È¡Êı Ä£Ê½£º" << endl;
-	cout << "1£º·¶Î§ÄÚËæ»úÈ¡ÊıÄ£Ê½" << endl;
-	cout << "2£º·¶Î§ÄÚÈ¡ÖĞ¼äÊıÄ£Ê½" << endl;
+	fflush(stdin);
+	cout << "è¯· é€‰æ‹© çŒœæ•°å­— å–æ•° æ¨¡å¼ï¼š" << endl;
+	cout << "1ï¼šèŒƒå›´å†…éšæœºå–æ•°æ¨¡å¼" << endl;
+	cout << "2ï¼šèŒƒå›´å†…å–ä¸­é—´æ•°æ¨¡å¼" << endl;
 	MSel = getch();
 
 	switch (MSel)
@@ -75,32 +88,32 @@ void OSMain()
 		MSel = 'B';
 		break;
 	default:
-		cout << "Ñ¡Ôñ´íÎó£¡" << endl;
+		cout << "é€‰æ‹©é”™è¯¯ï¼" << endl;
 		system("pause");
 		return;
 	}
-	unsigned long TimeBegin = GetTickCount();
+	unsigned long TimeBegin = 0;//GetTickCount();
 	do {
 		OS();
 	} while (Success < OSMax);
-	unsigned long TimeEnd = GetTickCount();
+	unsigned long TimeEnd = 0;//GetTickCount();
 
 
 	if (MSel == 'A' || MSel == 'B')
 	{
 		cout << endl;
-		cout << "**********·ÖÎö½á¹û***********" << endl;
+		cout << "**********åˆ†æç»“æœ***********" << endl;
 		if (MSel == 'A')
-			cout << "È¡ÊıÄ£Ê½£º·¶Î§ÄÚËæ»úÈ¡ÊıÄ£Ê½" << endl;
+			cout << "å–æ•°æ¨¡å¼ï¼šèŒƒå›´å†…éšæœºå–æ•°æ¨¡å¼" << endl;
 		if (MSel == 'B')
-			cout << "È¡ÊıÄ£Ê½£º·¶Î§ÄÚÈ¡ÖĞ¼äÊıÄ£Ê½" << endl;
-		cout << "¼ÆËã»ú·ÖÎö×ÜÑù±¾Êı = " << OSMax << endl;
-		cout << "µ¥Ñù±¾²ÂÊıÊı¾İ¿ç¶È = " << Width << endl;
-		cout << "¼ÆËã»ú²ÂÊı×Ü´ÎÊı = " << Times << endl;
-		cout << "Æ½¾ùÃ¿´Î³É¹¦ËùĞè²Â²â´ÎÊı = " << (double)Times / (double)Success << endl;
+			cout << "å–æ•°æ¨¡å¼ï¼šèŒƒå›´å†…å–ä¸­é—´æ•°æ¨¡å¼" << endl;
+		cout << "è®¡ç®—æœºåˆ†ææ€»æ ·æœ¬æ•° = " << OSMax << endl;
+		cout << "å•æ ·æœ¬çŒœæ•°æ•°æ®è·¨åº¦ = " << Width << endl;
+		cout << "è®¡ç®—æœºçŒœæ•°æ€»æ¬¡æ•° = " << Times << endl;
+		cout << "å¹³å‡æ¯æ¬¡æˆåŠŸæ‰€éœ€çŒœæµ‹æ¬¡æ•° = " << (double)Times / (double)Success << endl;
 		cout << "*****************************" << endl;
-		cout << "¼ÆËã»ú¹²ÔËËãÁË " << (double)(TimeEnd - TimeBegin) / 1000 << " Ãë" << endl;
-		cout << "Ìì½ò¿Æ¼¼Êı¾İ·ÖÎöÖĞĞÄ V 1.0" << endl;
+		cout << "è®¡ç®—æœºå…±è¿ç®—äº† " << (double)(TimeEnd - TimeBegin) / 1000 << " ç§’" << endl;
+		cout << "å¤©æ´¥ç§‘æŠ€æ•°æ®åˆ†æä¸­å¿ƒ V 1.0" << endl;
 		cout << "\tDesigned By ZhaoLei" << endl;
 		cout << "*****************************" << endl;
 	}
@@ -109,7 +122,7 @@ void OSMain()
 
 void OS()
 {
-	cout << "ÕıÔÚ½øĞĞµÚ " << OSTimes << " ´ÎÔËËã: ";
+	cout << "æ­£åœ¨è¿›è¡Œç¬¬ " << OSTimes << " æ¬¡è¿ç®—: ";
 	MinMax[0] = -1;
 	MinMax[1] = Width;
 	bool TorF;
@@ -120,7 +133,7 @@ void OS()
 		ComputerGuess = RandNumb(MinMax[0], MinMax[1]);
 		TorF = Compare(ComputerNumb, ComputerGuess);
 	} while (TorF == false);
-	cout << "\t\t" << Times - OldTimes << "\t´Î²Â³öËæ»úÊı" << endl;
+	cout << "\t\t" << Times - OldTimes << "\tæ¬¡çŒœå‡ºéšæœºæ•°" << endl;
 	++OSTimes;
 }
 
@@ -145,6 +158,7 @@ bool Compare(int ComputerNumb, int ComputerGuess)
 		++Success;
 		return true;
 	}
+	return false;
 }
 
 int RandNumb()
